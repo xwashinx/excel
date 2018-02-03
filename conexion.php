@@ -11,7 +11,7 @@ function conectint(){
     echo "Error conectando a la base de datos."; 
     exit(); 
   }
-  if (!mysql_select_db('internaciones',$linkint)) 
+  if (!mysql_select_db('exportador_excel',$linkint)) 
   { 
     echo "Error seleccionando la base de datos."; 
     exit(); 
