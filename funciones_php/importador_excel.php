@@ -98,7 +98,7 @@
                       $valor_row = $data->sheets[0]['cells'][$i][$j];
                       $valor_row = explode("/",$valor_row);
 
-                      $dia = $valor_row[1];
+                      $dia = $valor_row[1]; hgcgh
                       $mes = $valor_row[0];
                       $anio_hora = explode(" ",$valor_row[2]);
                       $anio = $anio_hora[0];
